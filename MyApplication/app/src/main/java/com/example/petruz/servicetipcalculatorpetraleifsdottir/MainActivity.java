@@ -65,15 +65,16 @@ public class MainActivity extends AppCompatActivity {
                     }
 
                 totPrice = price * tip;
-                roundTwoDecimals(totPrice);
+                totPrice = roundTwoDecimals(totPrice);
 
 
 
-
-                totPriceText.setText("Total price: $" + totPrice.toString());
+                totPriceText.setText("Total price: $ " + totPrice.toString());
 
             }
         });
+
+
     }
 
     double roundTwoDecimals(double totPrice) {
