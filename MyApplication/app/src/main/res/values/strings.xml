@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ServiceTipCalculatorPetraLeifsdottir</string>
+    <string name="rate_your_service">Rate your service!</string>
+    <string name="input_price_for_meal">Input price for meal</string>
 </resources>
