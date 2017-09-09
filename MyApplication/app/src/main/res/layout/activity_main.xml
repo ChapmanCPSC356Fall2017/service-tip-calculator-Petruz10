@@ -39,7 +39,7 @@
         android:id="@+id/calcBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Calculate price"
+        android:text="@string/calculate_price"
         android:padding="20dp"
     />
 
@@ -47,7 +47,7 @@
         android:id="@+id/totPrice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Total price : "
+        android:text="@string/total_price"
         android:textSize="20sp"
         android:padding="30dp"
 
