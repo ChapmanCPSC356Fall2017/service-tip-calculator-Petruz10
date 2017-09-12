@@ -3,5 +3,6 @@
     <string name="rate_your_service">Rate your service!</string>
     <string name="input_price_for_meal">Input price for meal</string>
     <string name="calculate_price">Calculate price</string>
-    <string name="total_price">Total price :</string>
+    <string name="price_for_meal">put in price for meal!</string>
+    <string name="total_price">Total price: $ </string>
 </resources>

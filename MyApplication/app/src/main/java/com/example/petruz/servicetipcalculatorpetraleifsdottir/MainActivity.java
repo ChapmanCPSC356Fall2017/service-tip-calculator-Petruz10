@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 if(mealPrice.getText().toString().matches(""))
                 {
-                    totPriceText.setText("put in price for meal!");
+                    totPriceText.setText(R.string.price_for_meal);
                     return;
                 }
 
@@ -66,10 +66,9 @@ public class MainActivity extends AppCompatActivity {
 
                 totPrice = price * tip;
                 totPrice = roundTwoDecimals(totPrice);
+                String totalPriceStr = getString(R.string.total_price);
 
-
-
-                totPriceText.setText("Total price: $ " + totPrice.toString());
+                totPriceText.setText(totalPriceStr + totPrice.toString());
 
             }
         });
